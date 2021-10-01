@@ -1,28 +1,31 @@
 body {
   display: flex;
   flex-direction: column;
+  width: 80%;
+  margin: auto;
 }
 
 header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 4%;
-  padding: 1% 15%;
+  padding: 2%;
   background-color: #1f2737;
   color: #e5e7eb;
-  border: solid rebeccapurple 5px;
 }
 
 header div {
   display: flex;
   align-items: center;
-  border: green solid 4px;
+  padding: 2%;
+  
 }
 
 header a {
     color: #f9faf8;
     text-decoration: none;
+    padding: 0px 10px;
+    margin: 0 10px%;
 }
 
 h1 {
@@ -33,7 +36,6 @@ h1 {
 
 .top {
     display: flex;
-    border: solid 4px red;
     color: #f9faf8;
     background-color: #1f2737;
     color: #e5e7eb;
@@ -51,21 +53,30 @@ h1 {
   
 }
 
-.top button{
+.top-left button{
   background-color: #3882f6;
   color: white;
+  border-radius: 6px;
+  padding: 2% 4%;
+  font-weight: bold;
+}
+
+.raninf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
 }
 
 .top-left {
-  border: solid 3px green;
   text-align:start;
 }
 
 .midarea {
-    border: greenyellow 4px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .midarea h2 {
@@ -76,7 +87,7 @@ h1 {
 }
 
 .botarea {
-
+  padding: 2% 20%;
   background-color: #e5e7eb;
 }
 
@@ -93,19 +104,59 @@ h1 {
 
 .mid-bot {
   display: flex;
-  gap: 5%;
+  gap: 20px;
+  justify-content: space-between;
+  text-align: center;
+  width: 60%;
 }
 
 .imgholder {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   position: relative;
   overflow: hidden;
   border: solid #3882f6 4px;
   border-radius: 8px;
+  
 }
 
 .imgholder img {
   width: 112%;
   height: auto;
+}
+
+.bot2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  margin: 5% 10%;
+  border-radius: 8px;
+  gap: 10%;
+  padding: 4% 4%;
+}
+
+.bottitle {
+  font-weight: bold;
+}
+
+.bot2 p {
+  margin: 0;
+}
+
+.bot2 button {
+  background-color: #3882f6 ;
+  border: solid white 2px;
+  color: white;
+  border-radius: 4px;
+}
+
+footer {
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
 }

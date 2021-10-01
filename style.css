@@ -1,7 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin: auto;
 }
 
@@ -39,7 +38,7 @@ h1 {
     color: #f9faf8;
     background-color: #1f2737;
     color: #e5e7eb;
-    padding: 10% 15%;
+    padding: 5% 15%;
     gap: 5%
 }
 

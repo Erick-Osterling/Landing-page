@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 4%;
+  padding: 1% 15%;
+  background-color: #1f2737;
+  color: #e5e7eb;
+  border: solid rebeccapurple 5px;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  border: green solid 4px;
+}
+
+header a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8 ;
+}
+
+.top {
+    display: flex;
+    border: solid 4px red;
+    color: #f9faf8;
+    background-color: #1f2737;
+    color: #e5e7eb;
+    padding: 10% 15%;
+    gap: 5%
+}
+
+.top img {
+    width: 300px;
+    height: auto;
+}
+
+.top p {
+  font-size: 18px;
+  
+}
+
+.top button{
+  background-color: #3882f6;
+  color: white;
+}
+
+.top-left {
+  border: solid 3px green;
+  text-align:start;
+}
+
+.midarea {
+    border: greenyellow 4px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midarea h2 {
+  font-size: 36px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.botarea {
+
+  background-color: #e5e7eb;
+}
+
+.botarea p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.signature {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.mid-bot {
+  display: flex;
+  gap: 5%;
+}
+
+.imgholder {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border: solid #3882f6 4px;
+  border-radius: 8px;
+}
+
+.imgholder img {
+  width: 112%;
+  height: auto;
+}
